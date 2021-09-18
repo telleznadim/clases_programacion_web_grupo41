@@ -1,1 +1,3 @@
-# clases_programacion_web_grupo41
+# Clases Programacion Web Grupo 41
+# Mision TIC 2022
+# Universidad Tecnológica de Pereira
