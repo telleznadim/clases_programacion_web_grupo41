@@ -1,0 +1,55 @@
+h1 {
+  color: blueviolet;
+}
+
+div p {
+  color: aliceblue;
+}
+
+div .tit2-inicio {
+  color: chocolate;
+}
+.tit2-inicio2 {
+  color: brown;
+}
+.tit2-contacto {
+  color: aqua;
+}
+
+#header3 {
+  background-color: cyan;
+}
+.seccion-nav {
+  background-color: burlywood;
+}
+
+.seccion-tit {
+  background-color: grey;
+}
+
+.seccion-par {
+  background-color: rgb(119, 171, 180);
+  border: 2px rebeccapurple dashed;
+  margin: 40px;
+  padding: 10px;
+}
+.seccion-list {
+  background-color: azure;
+  border: 5px saddlebrown solid;
+  margin: 20px;
+  padding: 30px;
+}
+.seccion-list p {
+  color: saddlebrown;
+}
+
+.seccion-span {
+  background-color: rosybrown;
+}
+/* Selectores */
+/* TAG HTML (p, h1, section, div, .....)
+
+classes
+ids
+
+declaraciones (color, back-color, border, margin, padding) */
