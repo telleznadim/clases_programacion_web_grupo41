@@ -107,5 +107,5 @@ Nadim M. Téllez B. - telleznadim@gmail.com
 [stars-url]: https://img.shields.io/github/stars/telleznadim/clases_programacion_web_grupo41
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nadim-tellez-466451a1/
-[github-lastcommit]: https://img.shields.io/github/stars/telleznadim/clases_programacion_web_grupo41?style=for-the-badge
+[github-lastcommit]: https://img.shields.io/github/last-commit/telleznadim/clases_programacion_web_grupo41?style=for-the-badge
 [banner-img]: img/banner.jfif
