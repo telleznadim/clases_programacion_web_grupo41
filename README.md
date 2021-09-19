@@ -15,8 +15,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/telleznadim/test-repo">
-    <img src="https://static.thenounproject.com/png/1461700-200.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/telleznadim/clases_programacion_web_grupo41">
+    <img src="img/logo-git.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Proyectos y Ejemplos Desarrollados en Clase</h3>
 </p>
@@ -49,6 +49,8 @@
 [![Banner][banner-img]](Banner)
 
 En este repo encontrarás todos los proyectos y ejemplos que desarrollaremos en clase. Te invito a que busques dentro de la lista de branches para que puedas ubicar con facilidad el contenido de la clase de tu interés. A continuación de te dejo un pequeño gráfico donde te ubicarás mejor para encontrar cada branch:
+
+[![Banner][branches-img]](Branches)
 
 ### Ejemplos cargados:
 
@@ -97,11 +99,12 @@ Nadim M. Téllez B. - telleznadim@gmail.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/telleznadim/test-repo?style=for-the-badge
-[contributors-url]: https://github.com/telleznadim/test-repo/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/telleznadim/test-repo?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/telleznadim/clases_programacion_web_grupo41?style=for-the-badge
+[contributors-url]: https://github.com/telleznadim/clases_programacion_web_grupo41/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/telleznadim/clases_programacion_web_grupo41?style=for-the-badge
+[stars-url]: https://img.shields.io/github/stars/telleznadim/clases_programacion_web_grupo41
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nadim-tellez-466451a1/
-[github-lastcommit]: https://img.shields.io/github/last-commit/telleznadim/test-repo?style=for-the-badge
-[banner-img]: https://www.viewsonic.com/library/wp-content/uploads/2020/03/Virtual-Classroom-The-Future-of-Distance-Education.jpg
+[github-lastcommit]: https://img.shields.io/github/stars/telleznadim/clases_programacion_web_grupo41?style=for-the-badge
+[banner-img]: img/banner.jfif
+[branches-img]: img/branches.png
