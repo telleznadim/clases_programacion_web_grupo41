@@ -50,7 +50,9 @@
 
 En este repo encontrarás todos los proyectos y ejemplos que desarrollaremos en clase. Te invito a que busques dentro de la lista de branches para que puedas ubicar con facilidad el contenido de la clase de tu interés. A continuación de te dejo un pequeño gráfico donde te ubicarás mejor para encontrar cada branch:
 
-[![Banner][branches-img]](Branches)
+<div align="center">
+    <img src="img/branches.png" alt="Branches" width="400" height="400">
+</div>
 
 ### Ejemplos cargados:
 
@@ -107,4 +109,3 @@ Nadim M. Téllez B. - telleznadim@gmail.com
 [linkedin-url]: https://www.linkedin.com/in/nadim-tellez-466451a1/
 [github-lastcommit]: https://img.shields.io/github/stars/telleznadim/clases_programacion_web_grupo41?style=for-the-badge
 [banner-img]: img/banner.jfif
-[branches-img]: img/branches.png
