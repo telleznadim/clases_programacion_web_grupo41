@@ -59,6 +59,8 @@ En este repo encontrarás todos los proyectos y ejemplos que desarrollaremos en 
 - [HTML CSS Ejemplo1](HTMLCSSEje1)
 - [HTML CSS Ejemplo2 - Desarrollo de Página Web Club de Ark](ClubDeArk)
 - [VUE.js Ejemplo1](VueEje1)
+- [VUE.js Ejemplo2](VueEje2)
+- [VUE.js Ejemplo3 Lista de Pokemons](VueEje3)
 
 <!-- GETTING STARTED -->
 
@@ -80,8 +82,16 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
   - GitHub Pull Requests and Issues
   - Vetur
 
+- Google Chrome (Consola de Desarrollador).
 - Git. [Descárgalo aquí](https://git-scm.com/downloads)
 - NodeJs (Current). [Descárgalo aquí](https://nodejs.org/en/)
+
+## Links de nuestras clases
+
+- Introducción Inicial (Aclaración de dudas generalizadas - Introducción a la Programación Web) [Ir...](https://www.youtube.com/watch?v=guNoEWwDDPk&t)
+- HTML y CSS (Clase práctica básica) [Ir...](https://www.youtube.com/watch?v=jSwgYyZRDIU&t)
+- Aplicando HTML y CSS en una primera página web (Club de Ark). Intruducción a Vue.js. [Ir...](https://www.youtube.com/watch?v=llaXyYzk6vM&t)
+- Aplicaciones básicas de Vue.js y su utilidad. [Ir...](https://www.youtube.com/watch?v=ohZIHW24QEM)
 
 <!-- DOCUMENTACIÓN -->
 
