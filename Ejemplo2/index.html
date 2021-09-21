@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>vue ejemplo2</title>
+    <script src="https://unpkg.com/vue@3.1.0"></script>
+  </head>
+  <body>
+    <div id="app">
+      <ul>
+        <li class="">
+          <div @mouseover="capturaEvento" class="details">
+            <h2>mouseover</h2>
+            <p></p>
+            <div class="product">
+              <img src="" />
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li class="">
+          <div @mouseleave="capturaEvento($event,10)" class="details">
+            <h2>mouseleave</h2>
+            <p></p>
+            <div class="product">
+              <img src="" />
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li class="">
+          <div @dblclick="capturaEvento($event,15)" class="details">
+            <h2>Doble Click</h2>
+            <p></p>
+            <div class="product">
+              <img src="" />
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li class="">
+          <div @mousemove="capturarMovimiento" class="details">
+            <h2>MouseMove</h2>
+            <p>{{ x }} {{ y }}</p>
+            <div class="product">
+              <img src="" />
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
