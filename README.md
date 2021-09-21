@@ -93,7 +93,7 @@ También te recomiendo la documentación oficial y no oficial de las temáticas 
 - CSS [Ir...](https://www.w3schools.com/css/)
 - JavaScript [Ir...](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Vue.js [Ir...](https://vuejs.org/v2/guide/)
-- Vuetify [Ir...](https://vuetifyjs.com/en/)
+- Vuetify [Ir...](https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides)
 
 <!-- CONTACTO -->
 
