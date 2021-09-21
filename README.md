@@ -70,7 +70,7 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
 
 - Visual Studio Code (Gratis). [Descárgalo aquí](https://code.visualstudio.com/)
 
-  Te recomiendo las siguientes extensiones:
+  Te recomiendo las siguientes extensiones de Visual Studio Code:
 
   - HTML CSS Support
   - HTML Snippets
@@ -78,6 +78,7 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
   - Live Server
   - Prettier - Code Formatter
   - GitHub Pull Requests and Issues
+  - Vetur
 
 - Git. [Descárgalo aquí](https://git-scm.com/downloads)
 - NodeJs (Current). [Descárgalo aquí](https://nodejs.org/en/)
@@ -92,6 +93,7 @@ También te recomiendo la documentación oficial y no oficial de las temáticas 
 - CSS [Ir...](https://www.w3schools.com/css/)
 - JavaScript [Ir...](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Vue.js [Ir...](https://vuejs.org/v2/guide/)
+- Vuetify [Ir...](https://vuetifyjs.com/en/)
 
 <!-- CONTACTO -->
 
