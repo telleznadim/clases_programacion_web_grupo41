@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://unpkg.com/vue@3.1.0"></script>
+    <title>Ejemplo 3 Vue</title>
+  </head>
+  <body>
+    <div id="app">
+      <form class="form-search" @submit.prevent="handleSubmit">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" v-model="buscarNombre" />
+        <button>Buscar</button>
+      </form>
+
+      <ul>
+        <li v-bind:class="pokemon.tipo" v-for="pokemon in listaPokemons">
+          <div @click="cambiarFavorito(pokemon)" class="details">
+            <h2>{{ pokemon.nombre }}</h2>
+            <p>{{ pokemon.numero }}</p>
+            <div class="product">
+              <img
+                v-bind:class="{favorito: pokemon.fav}"
+                v-bind:src="pokemon.imagen"
+              />
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
