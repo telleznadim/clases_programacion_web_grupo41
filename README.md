@@ -88,10 +88,10 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
 
 ## Links de nuestras clases
 
-- Introducción Inicial (Aclaración de dudas generalizadas - Introducción a la Programación Web) [Ir...](https://www.youtube.com/watch?v=guNoEWwDDPk&t)
-- HTML y CSS (Clase práctica básica) [Ir...](https://www.youtube.com/watch?v=jSwgYyZRDIU&t)
-- Aplicando HTML y CSS en una primera página web (Club de Ark). Intruducción a Vue.js. [Ir...](https://www.youtube.com/watch?v=llaXyYzk6vM&t)
-- Aplicaciones básicas de Vue.js y su utilidad. [Ir...](https://www.youtube.com/watch?v=ohZIHW24QEM)
+- Introducción Inicial (Aclaración de dudas generalizadas - Introducción a la Programación Web) [Ir al video.](https://www.youtube.com/watch?v=guNoEWwDDPk&t)
+- HTML y CSS (Clase práctica básica) [Ir al video.](https://www.youtube.com/watch?v=jSwgYyZRDIU&t)
+- Aplicando HTML y CSS en una primera página web (Club de Ark). Intruducción a Vue.js. [Ir al video.](https://www.youtube.com/watch?v=llaXyYzk6vM&t)
+- Aplicaciones básicas de Vue.js y su utilidad. [Ir al video.](https://www.youtube.com/watch?v=ohZIHW24QEM)
 
 <!-- DOCUMENTACIÓN -->
 
@@ -99,11 +99,11 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
 
 También te recomiendo la documentación oficial y no oficial de las temáticas tratadas en clase:
 
-- HTML [Ir...](https://www.w3schools.com/html/)
-- CSS [Ir...](https://www.w3schools.com/css/)
-- JavaScript [Ir...](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- Vue.js [Ir...](https://vuejs.org/v2/guide/)
-- Vuetify [Ir...](https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Vue.js](https://vuejs.org/v2/guide/)
+- [Vuetify](https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides)
 
 <!-- CONTACTO -->
 
