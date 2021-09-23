@@ -167,6 +167,14 @@ li.luchador h2{
   background-color: rgb(113, 69, 11, 0.5);
   color: white
 }
+li.planta div,li.planta p{
+  background-color: rgb(21, 114, 9);
+  color: white
+}
+li.planta h2{
+  background-color: rgb(21, 114, 9, 0.5);
+  color: white
+}
 
 
 /* li:nth-child(3n + 1) h2,

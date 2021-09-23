@@ -9,15 +9,58 @@
     <title>Ejemplo 3 Vue</title>
   </head>
   <body>
+
+    <input type="text" @click="">
     <div id="app">
-      <form class="form-search" @submit.prevent="handleSubmit">
+      <!-- <button @click="agregarPokemon">Bulbasaur</button> -->
+      <form class="form-search" @submit.prevent="ejecutarBusqueda">
         <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" v-model="buscarNombre" />
-        <button>Buscar</button>
+        <input
+          type="text"
+          name="nombre"
+          v-model="buscar.nombre"
+          :disabled="buscar.todos"
+          @input="ejecutarBusqueda"
+        />
+        <label for="tipo">Tipo</label>
+        <input
+          type="text"
+          name="tipo"
+          v-model="buscar.tipo"
+          :disabled="buscar.todos"
+          @input="ejecutarBusqueda"
+        />
+        <label for="favorito">Fav</label>
+        <input
+          type="checkbox"
+          name="favorito"
+          v-model="buscar.fav"
+          :disabled="buscar.todos"
+          @change="ejecutarBusqueda"
+        />
+        <label for="todos">Todos</label>
+        <input
+          type="checkbox"
+          name="todos"
+          v-model="buscar.todos"
+          @change="borrarFormulario"
+        />
+        <!-- <input type="radio" name="tipo" value="fuego" v-model="buscarTipo" />
+        <input
+          type="radio"
+          name="tipo"
+          value="electrico"
+          v-model="buscarTipo"
+        />
+        <input type="radio" name="tipo" value="fantasma" v-model="buscarTipo" />
+
+        <h2 style="background-color: white; color: black">{{buscarTipo}}</h2> -->
+        <!-- <button>Buscar</button> -->
       </form>
 
       <ul>
-        <li v-bind:class="pokemon.tipo" v-for="pokemon in listaPokemons">
+        <!-- <li v-bind:class="pokemon.tipo" v-for="pokemon in listaPokemons"> -->
+        <li v-bind:class="pokemon.tipo" v-for="pokemon in pokemonsFiltrados">
           <div @click="cambiarFavorito(pokemon)" class="details">
             <h2>{{ pokemon.nombre }}</h2>
             <p>{{ pokemon.numero }}</p>

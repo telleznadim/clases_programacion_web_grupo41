@@ -1,8 +1,18 @@
 const app = Vue.createApp({
   //   template: "<h1>VUE GRUPO 41</h1>",
+  mounted() {
+    // console.log("mounted");
+    this.pokemonsFiltrados = this.listaPokemons;
+  },
   data() {
     return {
-      buscarNombre: "",
+      buscar: {
+        tipo: "",
+        nombre: "",
+        fav: false,
+        todos: true,
+      },
+      // buscarTipo: "electrico",
       pokemonsFiltrados: [],
       listaPokemons: [
         {
@@ -75,22 +85,53 @@ const app = Vue.createApp({
           imagen: "assets/incineroar.jpg",
           fav: false,
         },
+        {
+          nombre: "Bulbasaur",
+          numero: 1,
+          tipo: "planta",
+          imagen: "assets/bulbasaur.png",
+          fav: false,
+        },
       ],
     };
   },
   methods: {
+    // agregarPokemon() {
+    //   this.listaPokemons.push({
+    //     nombre: "Bulbasaur",
+    //     numero: 1,
+    //     tipo: "planta",
+    //     imagen: "assets/bulbasaur.png",
+    //     fav: false,
+    //   });
+    // },
     cambiarFavorito(pokemon) {
       //   console.log("Favorito");
       //   console.log(pokemon);
       pokemon.fav = !pokemon.fav;
     },
-    handleSubmit() {
-      console.log("submit");
-      console.log(this.buscarNombre);
-      this.pokemonsFiltrados = this.listaPokemons.filter(
-        (pokemon) => pokemon.fav
-      );
-      console.log(this.pokemonsFiltrados);
+    ejecutarBusqueda() {
+      // console.log("submit");
+      // console.log(this.buscar.nombre);
+      console.log(this.buscar.todos);
+      if (!this.buscar.todos) {
+        this.pokemonsFiltrados = this.listaPokemons.filter(
+          (pokemon) =>
+            pokemon.nombre.includes(this.buscar.nombre) &&
+            pokemon.tipo.includes(this.buscar.tipo) &&
+            this.buscar.fav === pokemon.fav
+        );
+        console.log(this.pokemonsFiltrados);
+      }
+    },
+    borrarFormulario() {
+      if (this.buscar.todos) {
+        this.pokemonsFiltrados = this.listaPokemons;
+        // console.log("verdadero");
+        this.buscar.nombre = "";
+        this.buscar.tipo = "";
+        this.buscar.fav = false;
+      }
     },
   },
 });
