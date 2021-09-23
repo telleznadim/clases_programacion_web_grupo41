@@ -56,11 +56,11 @@ En este repo encontrarás todos los proyectos y ejemplos que desarrollaremos en 
 
 ### Ejemplos cargados:
 
-- [HTML CSS Ejemplo1](HTMLCSSEje1)
-- [HTML CSS Ejemplo2 - Desarrollo de Página Web Club de Ark](ClubDeArk)
-- [VUE.js Ejemplo1](VueEje1)
-- [VUE.js Ejemplo2](VueEje2)
-- [VUE.js Ejemplo3 Lista de Pokemons](VueEje3)
+- [HTML CSS Ejemplo1](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/html-css-ejemplo1)
+- [HTML CSS Ejemplo2 - Desarrollo de Página Web Club de Ark](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/html-css-ejemplo2)
+- [VUE.js Ejemplo1](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-ejemplo1)
+- [VUE.js Ejemplo2](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-ejemplo2)
+- [VUE.js Ejemplo3 Lista de Pokemons](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-eje3-lista-pokemons)
 
 <!-- GETTING STARTED -->
 
