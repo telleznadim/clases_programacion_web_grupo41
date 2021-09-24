@@ -85,8 +85,8 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
 - Google Chrome (Consola de Desarrollador).
 - Git. [Descárgalo aquí](https://git-scm.com/downloads)
 - NodeJs (Current). [Descárgalo aquí](https://nodejs.org/en/)
-- Vue.js. Para instalarlo deberas seguir el siguiente sencillo procedimiento:
-  1. Instalar vue-cli, que corresponde a la línea de comandos de Vue.
+- Vue.js. Para instalarlo deberás seguir el siguiente procedimiento:
+  1. Instalas vue-cli, que corresponde a la línea de comandos de Vue.
      ```sh
      npm install vue-cli
      ```
