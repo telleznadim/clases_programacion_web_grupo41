@@ -48,7 +48,7 @@
 
 [![Banner][banner-img]](Banner)
 
-En este repo encontrarás todos los proyectos y ejemplos que desarrollaremos en clase. Te invito a que busques dentro de la lista de branches para que puedas ubicar con facilidad el contenido de la clase de tu interés. A continuación de te dejo un pequeño gráfico donde te ubicarás mejor para encontrar cada branch:
+En este repo encontrarás todos los proyectos y ejemplos que desarrollaremos en clase. Te invito a que busques dentro de la lista de branches para que puedas ubicar con facilidad el contenido de la clase de tu interés. A continuación te dejo un pequeño gráfico donde te ubicarás mejor para encontrar cada branch:
 
 <div align="center">
     <img src="img/branches.png" alt="Branches" width="400" height="400">
