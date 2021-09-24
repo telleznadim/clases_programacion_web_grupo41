@@ -107,6 +107,12 @@ También te recomiendo la documentación oficial y no oficial de las temáticas 
 - [Vue.js](https://vuejs.org/v2/guide/)
 - [Vuetify](https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides)
 
+Y a continuación te comparto el Stack tecnológico que trabajaremos para el desarrollo de todas las clases del ciclo 3:
+
+<div align="center">
+    <img src="img/Stack.png" alt="Stack" width="100%">
+</div>
+
 <!-- CONTACTO -->
 
 ## Contacto
