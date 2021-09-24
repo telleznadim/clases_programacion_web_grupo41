@@ -93,7 +93,7 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
 - [Aplicando HTML y CSS en una primera página web (Club de Ark). Intruducción a Vue.js - 16/09/21](https://www.youtube.com/watch?v=llaXyYzk6vM&t)
 - [Aplicaciones básicas de Vue.js y su utilidad. (Lista de Pokemons Parte 1) - 20/09/21](https://www.youtube.com/watch?v=ohZIHW24QEM)
 - [Aplicaciones básicas de Vue.js y su utilidad. (Lista de Pokemons Parte 2) - 21/09/21](https://www.youtube.com/watch?v=1oVmM_2cnt4)
-- [Juego en Vue, Temporizador - Atrapa la Pokeball (Parte 1) - 21/09/21](https://www.youtube.com/watch?v=jesUxaRCa2o)
+- [Juego en Vue, Temporizador - Atrapa la Pokeball (Parte 1) - 23/09/21](https://www.youtube.com/watch?v=jesUxaRCa2o)
 
 <!-- DOCUMENTACIÓN -->
 
