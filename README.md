@@ -85,6 +85,20 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
 - Google Chrome (Consola de Desarrollador).
 - Git. [Descárgalo aquí](https://git-scm.com/downloads)
 - NodeJs (Current). [Descárgalo aquí](https://nodejs.org/en/)
+- Vue.js. Para instalarlo deberas seguir el siguiente sencillo procedimiento:
+  1. Instalar vue-cli, que corresponde a la línea de comandos de Vue.
+     ```sh
+     npm install vue-cli
+     ```
+  2. Creas un proyecto nuevo.
+     ```sh
+     vue create <Nombre del Proyecto>
+     ```
+  3. Seleccionas las opciones que mejor se ajusten a tu necesidad: Vue 2, Vue 3, opciones avanzadas, etc.
+- Vuetify: Solo necesitarás correr el siguiente comando en la raiz del proyecto que estés creando:
+  ```
+  vue add vuetify
+  ```
 
 ## Links de nuestras clases
 
