@@ -61,6 +61,8 @@ En este repo encontrarás todos los proyectos y ejemplos que desarrollaremos en 
 - [VUE.js Ejemplo1](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-ejemplo1)
 - [VUE.js Ejemplo2](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-ejemplo2)
 - [VUE.js Ejemplo3 Lista de Pokemons](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-eje3-lista-pokemons)
+- [VUE.js Ejemplo1 Lista de Pokemons](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-instalado-captura-la-pokeball)
+- [VUE.js y Vuetify Ejemplo2 Pokemon Trainers Wiki](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-instalado-pokemon-trainers-wiki)
 
 <!-- GETTING STARTED -->
 
@@ -108,6 +110,9 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
 - [Aplicaciones básicas de Vue.js y su utilidad. (Lista de Pokemons Parte 1) - 20/09/21](https://www.youtube.com/watch?v=ohZIHW24QEM)
 - [Aplicaciones básicas de Vue.js y su utilidad. (Lista de Pokemons Parte 2) - 21/09/21](https://www.youtube.com/watch?v=1oVmM_2cnt4)
 - [Juego en Vue, Temporizador - Atrapa la Pokeball (Parte 1) - 23/09/21](https://www.youtube.com/watch?v=jesUxaRCa2o)
+- [Juego en Vue, Temporizador - Atrapa la Pokeball (Parte 2) - Vuetify Página Pokémon Trainers Wiki - 27/09/21](https://www.youtube.com/watch?v=zsdoaeaC5YY)
+- [Vue y Vuetify Página Pokémon Trainers Wiki (Parte 2) - 30/09/21](https://www.youtube.com/watch?v=fnZsrVmN3n4)
+- [Vue y Vuetify Página Pokémon Trainers Wiki (Parte 3) - 04/10/21](https://www.youtube.com/watch?v=Q6MQzLN2qJU)
 
 <!-- DOCUMENTACIÓN -->
 
