@@ -63,6 +63,8 @@ En este repo encontrarás todos los proyectos y ejemplos que desarrollaremos en 
 - [VUE.js Ejemplo3 Lista de Pokemons](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-eje3-lista-pokemons)
 - [VUE.js Ejemplo1 Captura la Pokéball](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-instalado-captura-la-pokeball)
 - [VUE.js y Vuetify Ejemplo2 Pokemon Trainers Wiki](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/vue-instalado-pokemon-trainers-wiki)
+- [Pokemon Trainers Wiki - Frontend](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/pokemon-trainers-wiki-frontend)
+- [Pokemon Trainers Wiki - Backend](https://github.com/telleznadim/clases_programacion_web_grupo41/tree/pokemon-trainers-wiki-backend)
 
 <!-- GETTING STARTED -->
 
@@ -101,6 +103,34 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
   ```
   vue add vuetify
   ```
+- MongoDB Community Edition. [Descárgalo aquí](https://www.mongodb.com/try/download/community)
+- Librerías para NodeJs: Express, Nodemon, Mongoose y Morgan).
+- Heroku Cli. [Descárgalo aquí](https://devcenter.heroku.com/articles/heroku-cli)
+- Para cargar una App Vue a Heroku necesitarás seguir el siguiente tutorial [Referencia](https://cli.vuejs.org/guide/deployment.html#heroku):
+  1. Instala Heroku-cli, que corresponde a la línea de comandos de Heroku.
+  2. Agrega a la raíz de tu proyecto Vue un archivo de nombre static.json con el siguiente contenido:
+     ```json
+     {
+       "root": "dist",
+       "clean_urls": true,
+       "routes": {
+         "/**": "index.html"
+       }
+     }
+     ```
+  3. Agregar el archivo static.json al repositorio git local:
+     ```sh
+      git add static.json
+      git commit -m "static.json Agregado"
+     ```
+  4. Crear la Aplicación Heroku:
+     ```sh
+        heroku login
+        heroku create
+        heroku buildpacks:add heroku/nodejs
+        heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static
+        git push heroku main
+     ```
 
 ## Links de nuestras clases
 
@@ -113,6 +143,9 @@ Antes de que inicies aségurate de leer lo siguiente, con el fin de que tengas s
 - [Juego en Vue, Temporizador - Atrapa la Pokeball (Parte 2) - Vuetify Página Pokémon Trainers Wiki - 27/09/21](https://www.youtube.com/watch?v=zsdoaeaC5YY)
 - [Vue y Vuetify Página Pokémon Trainers Wiki (Parte 2) - 30/09/21](https://www.youtube.com/watch?v=fnZsrVmN3n4)
 - [Vue y Vuetify Página Pokémon Trainers Wiki (Parte 3) - 04/10/21](https://www.youtube.com/watch?v=Q6MQzLN2qJU)
+- [CRUD y funcionalidades básicas de MongoDB - 05/10/21](https://www.youtube.com/watch?v=V6bP1mX9_sY)
+- [Conceptos básicos NodeJs - 07/10/21](https://www.youtube.com/watch?v=ktjNolx1FMs)
+- [NodeJs (Express, Mongoose, Morgan y Nodemon). Breve tutorial de Heroku - 11/10/21](https://www.youtube.com/watch?v=FsJ9vhs9Vug)
 
 <!-- DOCUMENTACIÓN -->
 
@@ -125,6 +158,10 @@ También te recomiendo la documentación oficial y no oficial de las temáticas 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Vue.js](https://vuejs.org/v2/guide/)
 - [Vuetify](https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides)
+- [Express](https://expressjs.com/)
+- [Mongoose](https://mongoosejs.com/docs/guide.html)
+- [Heroku](https://devcenter.heroku.com/articles/git)
+- [HerokuVueApp](https://cli.vuejs.org/guide/deployment.html#heroku)
 
 Y a continuación te comparto el Stack tecnológico que trabajaremos para el desarrollo de todas las clases del ciclo 3:
 
